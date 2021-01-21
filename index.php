@@ -56,28 +56,28 @@ if ($_POST) {
 			<td width="70%">' . $_POST["platformSize"] . '</td>
 		</tr>
 		<tr>
-			<td width="30%">Exterior Wood Type</td>
+			<td width="30%">Exterior Type</td>
 			<td width="70%">' . $_POST["typeExteriorSel"] . '</td>
 		</tr>
 		<tr>
-			<td width="30%">Exterior Wood Colour</td>
+			<td width="30%">Exterior Colour</td>
 			<td width="70%">' . $_POST["typeColourExSel"] . '</td>
 		</tr>
 		<tr>
-			<td width="30%">Exterior Wood Gradient</td>
+			<td width="30%">Exterior Gradient</td>
 			<td width="70%">' . $_POST["typeGradientExSel"] . '</td>
 		</tr>
 		<tr>
-			<td width="30%">Interior Wood Type</td>
+			<td width="30%">Interior Type</td>
 			<td width="70%">' . $_POST["typeInteriorSel"] . '</td>
 		</tr>
 		<tr>
 		<tr>
-			<td width="30%">Interior Wood Colour</td>
+			<td width="30%">Interior Colour</td>
 			<td width="70%">' . $_POST["typeColourInSel"] . '</td>
 		</tr>
 		<tr>
-			<td width="30%">Interior Wood Gradient</td>
+			<td width="30%">Interior Gradient</td>
 			<td width="70%">' . $_POST["typeGradientInSel"] . '</td>
 		</tr>
 		<tr>
@@ -156,8 +156,8 @@ function sendEmail($pdf)
 		$mail->isSMTP();                                            // Send using SMTP
 		$mail->Host = 'smtp.gmail.com';	                  // Set the SMTP server to send through
 		$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-		$mail->Username = "test.formularza.domki@gmail.com";                    // SMTP username
-		$mail->Password = 'Qwerty123!';	                              // SMTP password
+		$mail->Username = "your e-mail ( gmail )";                    // SMTP username
+		$mail->Password = 'Your password to gmail!';	                              // SMTP password
 		$mail->SMTPSecure = 'ssl';        // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 		$mail->Port = '465';                                   // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
