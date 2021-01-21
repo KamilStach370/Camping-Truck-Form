@@ -347,6 +347,7 @@ option, .form-control {
 
 .leftSide,
 .typeImgWrap {
+    color: white;
     flex-basis: 50%;
     justify-content: center;
     align-items: center;
